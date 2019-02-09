@@ -21,7 +21,15 @@
 
 	<!-- CSS Just for demo purpose, don't include it in your project -->
 	<link href="assets/css/demo.css" rel="stylesheet" />
-
+	<style>
+		.tilearea:hover .imgarea{
+			opacity:.5;
+		}
+		.imgarea{
+			transition: .5s ease;
+			backface-visibility: hidden;
+		}
+	</style>
 </head>
 
 <body class="index-page">
@@ -123,23 +131,22 @@
 	                </div>
 
 	                <div class="row">
-	                    <div class="col-sm-2 col-sm-offset-1">
-	                        <h4 class="pull-right">Emak VS Anak </h4>
-	                        <small>GGJ 2019</small>
-	                        <a href="EmakVsAnak" onmouseover="" target="_blank">
-		                        <img src="assets/img/game.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive">
+	                    <div class="col-sm-3 col-sm-offset-1 tilearea text-center">
+	                        <h4>emak VS anak (GGJ19) </h4>
+							<a href="EmakVsAnak" target="_blank">
+		                        <img src="assets/img/game.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive imgarea rounded float-left">
 	                        </a>
 	                    </div>
-	                    <div class="col-sm-2 col-sm-offset-1">
+	                    <div class="col-sm-3 col-sm-offset-1 tilearea text-center">
 	                        <h4>UPO (Kulgram FG)</h4>
 	                        <a href="upo" target="_blank">
-		                        <img src="assets/img/game.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive">
+		                        <img src="assets/img/game.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive imgarea">
 	                        </a>
 	                    </div>
-	                    <div class="col-sm-2 col-sm-offset-1">
-							<h4>Nembak Onde2 (Dicoding)</h4>
+	                    <div class="col-sm-3 col-sm-offset-1 tilearea text-center">
+							<h4>NembakOnde2 (Dicoding)</h4>
 	                        <a href="NembakOnde2" target="_blank">
-		                        <img src="assets/img/game.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive">
+		                        <img src="assets/img/game.jpg" alt="Thumbnail Image" class="img-circle img-raised img-responsive imgarea">
 	                        </a>
 	                    </div>
 	                </div>
